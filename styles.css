@@ -109,6 +109,8 @@ right container
 .image-to-div {
     height: 100%;
     width: 100%;
+    min-width: 100px;
+    min-height: 100%;
 }
 
 .featured-work-title-div {
@@ -188,11 +190,8 @@ right container
     width: 80px;
 }
 
-
-/*
-left container
- */
-
-/*
-footer
- */
+.logo-test {
+    font-family: cursive;
+    text-shadow: 5px 5px 10px black;
+    letter-spacing: 2px;
+}
