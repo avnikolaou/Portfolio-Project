@@ -32,14 +32,26 @@
         flex-direction: column;
     }
     .main-container {
-        height: 100%;
+        height: auto;
+    }
+
+    .main-image-container {
+        height: auto;
     }
 
 
     .featured-work-div {
         flex-direction: column;
+        height: auto;
     }
 
+    .featured-work-container {
+        height: auto;
+    }
+
+    .featured-work-title-div {
+        height: auto;
+    }
 
     .left {
         margin-left: 0;
@@ -88,4 +100,10 @@
         font-size: 1.3em;
     }
 
+}
+
+@media screen and (max-width: 370px) {
+    .basic-info {
+        font-size: 1.1em;
+    }
 }

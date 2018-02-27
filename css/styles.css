@@ -1,10 +1,4 @@
-/*
-Normal css
- */
-
-/*
- basic containers
- */
+/* -- Normal css -- */
 
 .container {
     display: flex;
@@ -57,10 +51,6 @@ Normal css
     order: 3;
 }
 
-/*
-header
- */
-
 .logo {
     width: 15%;
 }
@@ -93,24 +83,18 @@ header
     float: left;
 }
 
-/*
-right container
- */
-
 .main-image-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60%;
     min-width: 150px;
 }
 
 .image-to-div {
-    height: 100%;
     width: 100%;
     min-width: 100px;
-    min-height: 100%;
+    max-height: 100%;
 }
 
 .featured-work-title-div {
@@ -146,10 +130,6 @@ right container
     margin-left: 25px;
 }
 
-.center {
-
-}
-
 .right {
     margin-right: 25px;
 }
@@ -165,7 +145,6 @@ right container
     text-align: center;
     margin-top: 0;
 }
-
 
 .featured-work-descriptions {
     text-transform: uppercase;
