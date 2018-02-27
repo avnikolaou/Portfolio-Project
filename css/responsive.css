@@ -39,6 +39,9 @@
         height: auto;
     }
 
+    .image-to-div {
+        min-height: unset;
+    }
 
     .featured-work-div {
         flex-direction: column;
