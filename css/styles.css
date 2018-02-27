@@ -95,7 +95,8 @@
 .image-to-div {
     width: 100%;
     min-width: 100px;
-    min-height: 150px;
+    min-height: unset;
+    max-height: 100%;
 }
 
 .featured-work-title-div {
