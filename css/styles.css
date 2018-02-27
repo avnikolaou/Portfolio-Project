@@ -88,7 +88,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 65%;
+    height: 60%;
     min-width: 150px;
 }
 
@@ -116,7 +116,7 @@
 
 .featured-work-container {
     width: 100%;
-    height: 35%;
+    height: 40%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
